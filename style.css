@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    scroll-behavior: smooth;
+    scroll-margin: 4rem;
+    
+  }
+  header {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .6)),url(https://as2.ftcdn.net/v2/jpg/01/97/28/03/1000_F_197280335_EnKA1A5tJKci6o1FB5fvtWpMxH7QBOwG.jpg); 
+  /* background-image: url(https://as2.ftcdn.net/v2/jpg/01/97/28/03/1000_F_197280335_EnKA1A5tJKci6o1FB5fvtWpMxH7QBOwG.jpg); */
+  min-height: 900px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+nav{
+  position: fixed;
+  background-color: #48695E;
+  z-index: 100;
+  width: 100%;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container ul {
+  display: flex;
+  color: white;
+  gap: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 10px;
+  margin-top: 20px;
+}
+.container ul li a{
+  color: white;
+  text-decoration: none;
+}
+.container ul li {
+  text-align: center;
+  list-style: none;
+}
+.logo {
+  color: white;
+  font-size: 25px;
+}
+.container button {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+
+  margin-right: 16px;
+  background-color: #48695E;
+  }
+.container button:hover{
+  background-color: #b7e8bb;
+}
+.container ul li a:hover{
+  border-bottom:2px solid white;
+}
+
+.learn h1{
+ padding-top: 6rem;
+ font-size: 2rem;
+}
+.learn {
+  padding: 2rem 10%;
+  color: white;
+  
+}
+.learn .learn-content {
+  /* padding-top: 2rem; */
+  margin: 15px;
+}
+.learn button {
+  padding: 1rem 5%;
+  margin: 15px;
+  border-radius: 10px;
+  border: none;
+}
+.learn button:hover{
+  background-color: #48695E;
+}
+
+/*-----------courses-section-----------*/
+
+.courses-section .cour h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5%;
+  color: white;
+}
+.cour {
+  background-color:#48695E;
+ 
+  min-height: 250px;
+  position: absolute;
+  width: 100%;
+}
+
+.cour2 {
+  display: flex;
+  padding: 2rem 10%;
+  gap: 2rem;
+  position: relative;
+  }
+
+  .course1 {
+  margin-top: 10rem;
+  box-shadow: 0px 0px 4px 2px;
+  border-radius: 5px;
+  border: none; 
+
+}
+
+.cour2 .course1 .image img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+.cour2 .course1 span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 4rem;
+  margin: 10px;
+  padding: 10px;
+}
+.cour2 .course1 p {
+  margin: 10px;
+  padding: 10px;
+}
+/*------------our programming--------*/
+
+.pro1{
+    text-align: center;
+}
+ .pro1 p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.programming .pro1 h1{
+  margin-top: 4rem;
+}
+
+.pro2{
+  display: flex;
+  
+padding: 3rem 10%;
+gap: 5rem;
+}
+.pro2 .image img{
+  width: 100%;
+}
+.pro-containt{
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.pro-containt p{
+  margin-top: 2rem;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+/*--------Strive for Excellent---------*/
+
+.exce-section{
+  display: flex;
+  padding: 2rem 10%;
+}
+.exce1 h1{
+  margin-top: 2rem;
+}
+.exce1 p{
+  margin-top: 2rem;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+.exce2 .image img{
+  width: 100%;
+}
+
+/*----------Education-life------------*/
+
+.edu1{
+  display: flex;
+  padding: 2rem 10%;
+  gap: 5rem;
+}
+
+.image img{
+  width: 100%;
+}
+
+.edu2 p{
+  line-height: 2rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+/*--------our-teachers--------*/
+
+.tea1{
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem 10%;
+}
+
+.tea1 p{
+  margin-top: 1.5rem;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+
+ 
+.teacher-container .tea2{
+  display: flex;
+  padding: 2rem 10%;
+  gap: 2rem;
+ 
+}
+.tea2 .image{
+  border: 2px solid silver;
+  border-radius: 10px;
+
+  text-align: center;
+  padding: 2rem;
+
+}
+ .tea2 .image img{
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding: 2rem;
+  
+  border-radius: 10rem;
+}
+.tea2 h1, .tea2 p{
+  margin-top: 1.2rem;
+
+}
+.tea2 span{
+  padding-top: 1.2rem;
+  display: block;
+  font-size: 1.3rem;
+}
+
+
+
+
+.teacher-section{
+  background-image: url(https://media.istockphoto.com/id/1410336912/photo/happy-teacher-and-schoolgirl-giving-high-five-during-class-at-school.jpg?s=612x612&w=0&k=20&c=waX0PDd_PLqbyY6yBkIj-AL_7RD0J0hzjLHi1S7f8Eo=);
+  min-height: 400px;
+  position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+.teacher01{
+  text-align: center;
+  padding: 2rem 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5rem;
+  margin: 2rem;
+}
+.teacher1-containet img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  
+}
+
+/*----------choose-us--------*/
+
+.choose-container{
+  font-size: 25px;
+  text-align: center;
+}
+
+.choose-us .image img{
+ 
+  width: 400px;
+
+
+}
+
+.container1{
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 10%;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  background:#48695E;
+  
+}
+
+.container1 .content ul li{
+  list-style: square;
+  line-height: 2rem;
+  padding: 1rem 10px;
+  text-align: start;
+  font-size: 20px;
+  color: white;
+}
+
+/*---------message-us----------*/
+.content1{
+  padding: 2rem 10%;
+  
+}
+.msg h1{
+  font-size: 3rem;
+  margin: 10px;
+}
+.msg p{
+  font-size: 20px;
+  margin: 10px;
+}
+.form1 {
+  display: flex;
+  padding: 10px;
+  gap: 25px;
+}
+.form1 input{
+  width: 50%;
+  padding: 10px;
+}
+.form2 input{
+  padding: 10px;
+  width: 100%;
+}
+.form3 input{
+  padding: 10px;
+  width: 100%;
+}
+.form2,.form3{
+  padding: 10px;
+}
+.msg h1{
+  font-size: 2rem;
+  margin: 5px;
+}
+form{
+  
+  width: 50rem;
+  margin: auto;
+}
+.form-btn{
+  display:flex;
+  justify-content: center;
+}
+form button{
+  all: unset;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+form button:hover{
+  background-color: #48695E;
+  color: white;
+}
+
+     /*---------footer-section---------*/
+.foot{
+  background-color: #48695E;
+}
+    .foot .footer1{
+      display: flex;
+      padding: 2rem 10%;
+      gap: 5rem;
+     }
+  
+.foot-link li, .foot-about p, .foot-sub p{
+  margin-top: 20px;
+  font-size: 400;
+  color: white;
+}
+     .footer1 .foot-link ul{
+      list-style: none;
+      
+      
+    }
+     .foot-link ul li a{
+      text-decoration: none;
+      color: white;
+     }
+     .foot-about h1{
+      color: white;
+     }
+     .foot-link{
+      color:white;
+     }
+     .foot-sub{
+      color: white;
+     }
+
+
+     @media (max-width:708px){
+      header{
+        background-size: cover ;
+        background-position: center;
+        min-height: 100px;
+      }
+      .learn{
+         padding: 0;
+
+      }
+      .cour2{
+        flex-direction:column;
+        gap: 1rem;
+      }
+      .cour2 .course1 span {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 2rem;
+        margin: 5pxpx;
+        padding: 5px;
+        text-align: center;
+      }
+      .container .logo{
+        font-size: 20px;
+      }
+      .cour2 .course1 p {
+        margin: 5px;
+        padding: 5px;
+      }
+      .course1 {
+        margin-top: 3rem;
+              }
+      .pro1{
+        text-align: center;
+    }
+    .pro1 p{
+      margin-top: 20px;
+      font-size: 1.2rem;
+  }
+  .programming .pro1 h1{
+    margin-top: 2rem;
+  }
+  .pro2{
+    flex-direction: column;
+  padding: 1rem 5%;
+  gap: 3rem;
+  }
+  .exce-section{
+    flex-direction: column-reverse;
+    padding: 1rem 5%;
+  }
+  .edu1{
+ flex-direction: column;
+    padding: 1rem 5%;
+    gap: 3rem;
+  }
+  .teacher-container .tea2{
+   flex-direction: column;
+    padding: 1rem 5%;
+    gap: 2rem;
+    /* border: 2px solid red; */
+  }
+  .teacher1-containet img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+  .teacher-section{
+    background-size: cover;
+  }
+  .choose-container h1{
+    font-size: 2rem;
+  }
+  .container1{
+    flex-direction: column;
+  }
+ .choose-us .image img{
+  width: 100%;
+ }
+  form{
+    width: 21rem;
+  }
+  .foot .footer1{
+    flex-direction: column;
+    padding: 1rem 5%;
+    gap: 3rem;
+   }
+   .container ul li{
+    display: none;
+   }
+     }
+        
